@@ -8,9 +8,16 @@ h1 {
  
 }
 .container {
-    border: 5px solid black;
+    border: 5px solid rgb(10, 241, 37);
     margin: 5px;
     padding: 5px;
     width: 300px;
-    box-sizing: border-box;
+    box-sizing: doted-border-box;
+}
+div {
+    width: 100px;
+    height: 100px;
+}
+.simple-linear {
+    background: linear-gradient(blue,pink);
 }

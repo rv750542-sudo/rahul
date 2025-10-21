@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 25px;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        justify-content: flex-end;
+        gap: 20px;
+           }
+
+    .headercontent {
+        margin-top: 70px;
+    display: flex;
+    align-items: center;
+
+    .headercontentitem {
+        flex: 1;
+        h1 {
+            font-size: 50px;
+            line-height: 60px;
+            margin: 25px 0px;
+        }
+        p {
+            color: #555;
+        }
+        img {
+            width: 300px;
+            padding: 50px 0px;
+    }
+    }
+    }
+}
+.categories {
+    margin: 70px 0px;
+
+    .container {
+        max-width: 1080px;
+        margin: auto;
+        padding: 0px 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        img {
+            flex-basis: 30%;
+            min-width: 250px;
+        }
+    }
+}
+.featured-product {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        color: #555;
+        line-height: 60px;
+        
+        text-align: center;
+    }
+    .customunderlinecontainer {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 80px;
+        .customunderline {
+            width: 80px;
+            height: 5px;
+            background-color: #ff523b;
+            border-radius: 5%;
+        }
+    }
+    .product-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .product-cart {
+            display: flex;
+            flex-direction: column;
+            min-width: 100px;
+            padding: 10px;
+            margin-bottom: 50px;
+            flex-basis: 20%;
+            margin-bottom: 50px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            .product-title {
+                color: #555;
+            }
+            .product-pricing {
+                color: #555;
+                font-size: 14px;
+            }
+        }
+        .product-cart:hover {
+            transform: translateY(-5px);
+        }
+
+        }
+    }
+
+
