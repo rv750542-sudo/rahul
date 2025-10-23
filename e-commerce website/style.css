@@ -325,7 +325,48 @@ body {
                 }
         }}
                 
-                
+.allProductsSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 1080px;
+    padding: 0px 25px;
+    margin: auto;
+
+    .allProductsSectionLabel {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 100px 0px 50px;
+
+        .select {
+            border: 1px solid #ff523b;
+            padding: 5px;
+            outline: none;
+        }
+    }
+    
+    }
+.paginationButtonContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 80px;
+    .paginationButton {
+        display: inline-block;
+        border: 1px solid #ff523b;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+    .paginationButton:hover {
+        background-color: #ff523b;
+        color: #fff;
+    }
+}
+               
 
                
              
