@@ -1,0 +1,22 @@
+span {
+    border: 2px solid blue;
+    width: 120px;
+    background-color: yellow;
+    float: right;
+}
+img {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+p {
+    clear: both;
+    float: left;
+
+}
+
+div.parent {
+    border: 2px solid red;
+    background-color: lightgrey;
+
+}

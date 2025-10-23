@@ -166,5 +166,127 @@ body {
                     background-color: #563434;
                 }
     
+              .testimonialParentContainer {
+                padding-top: 100px;
 
+            .testimonialInnerContainer {
+                max-width: 1080px;
+                margin: auto;
+                padding: 0px 25px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
 
+                .testimonialCards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                    cursor: pointer;
+                    padding: 40px 20px 40px;
+                    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+                    cursor: pointer;
+                    transition: transform 0.5s;
+                    min-width: 250px;
+                    margin-bottom: 30px;
+                    flex-basis: calc(30% -50px);
+
+                    .testimonialContent {
+                        font-size: 12px;
+                        margin: 12px 0px;
+                        color: #777;
+                    }
+                    .ratings {
+                        padding-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        gap: 4px;
+
+                    }
+                    .userImage {
+                        width: 50px;
+                        margin-top: 20px;
+                        border-radius: 60%;
+                    }
+                    h3 {
+                        font-weight: 600;
+                        color: #555;
+                        font-size: 16px;
+                    }
+                }
+                .testimonialCards:hover {
+                    transform: translateY(-10px);
+                }
+                }
+              }  
+              .brandingContainer {
+                margin: 100px auto;
+
+                .brandingInnerContainer {
+                    display: flex;
+                    justify-content: space-around;
+                    max-width: 1080px;
+                    padding: 0px 25px;
+                    margin: auto;
+
+                    img {
+                        cursor: pointer;
+                        filter: grayscale(100%);
+                    }
+                    img:hover {
+                        filter: grayscale(0%);
+                    }
+                }
+            }
+              .logo {
+                width: 100px;
+                height: 100px;
+              }
+              .footer {
+                background: #222831;
+                color: #eeeeee;
+                font-size: 14px;
+                padding: 60px 0 20px;
+                margin-bottom: 300px;
+
+            .footerInnerContainer {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                max-width: 1300px;
+                margin: auto;
+                padding: 0px 25px;
+
+             .footerColumn {
+                min-width: 250px;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: column;
+             }   
+             .footerColumn1 {
+                flex-basis: 30%;
+                h3 {
+                   color: #ff523b;
+                   margin-bottom: 20px;
+                   font-weight: 500px; 
+                }
+                p {
+                    color: #eeeeee;
+                }
+               .footerStoreContainer {
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin-top: 20px;
+
+                .app {
+                    width: 100px;
+                    height: 100px;
+                }
+               } 
+             }
+            }
+
+                }
+              
