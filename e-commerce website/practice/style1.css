@@ -1,0 +1,26 @@
+body{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+#container {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 100%;
+    transform: translate(120px,120px)
+    rotatez(60deg);
+    border: 5px solid black;
+    
+}
+.line{
+    height: 3px;
+    width: 70px;
+    background-color: blueviolet;
+}
